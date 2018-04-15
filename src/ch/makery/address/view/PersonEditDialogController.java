@@ -119,7 +119,7 @@ public class PersonEditDialogController {
             errorMessage += "No valid street!\n";
         }
         if (postalCodeField.getText() == null || postalCodeField.getText().length() == 0) {
-            errorMessage += "No valid first name!\n";
+            errorMessage += "No valid postal code!\n";
         } else {
             // try to parse the postal code into an int.
             try {
