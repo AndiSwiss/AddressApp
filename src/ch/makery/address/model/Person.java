@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 /**
  * Model class for a Person
  *
- * @author Marco Jacob (edited by Andreas Ambühl)
+ * @author Marco Jacob
  */
 public class Person {
 
