@@ -107,7 +107,7 @@ public class RootLayoutController {
         alert.setHeaderText("About");
         alert.setContentText("Author: Marco Jacob\n" +
                 "Website: http://code.makery.ch\n" +
-                "Editor: Andreas Ambühl");
+                "Edited by: Andreas Ambühl");
 
         alert.showAndWait();
     }
@@ -118,5 +118,13 @@ public class RootLayoutController {
     @FXML
     private void handleExit() {
         System.exit(0);
+    }
+
+    /**
+     * Opens the birthday statistics.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+        mainApp.showBirthdayStatistics();
     }
 }
